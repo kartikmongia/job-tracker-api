@@ -25,7 +25,7 @@ const jobSchema = new mongoose.Schema(
     },
     company: {
       type: String,
-      required: [true, "Company is required"],
+      required: [true, "Company name is required"],
       trim: true,
       index: true,
     },
